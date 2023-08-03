@@ -50,7 +50,12 @@ section div p{
 }
 
 section div ul li{
+    display: flex;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
+    font-size: 1rem;
     list-style: none;
+    align-items: center;
 }
 
 form{
@@ -126,7 +131,7 @@ aside img{
     }
 
     main aside img{
-        content: url("./src/mobile.png");
+        content: url("./assets/mobile.png");
         width: 100%;
         height: fit-content;
     }
